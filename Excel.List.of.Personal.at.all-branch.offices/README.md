@@ -1,5 +1,6 @@
-#To create an Excel-List of all enabled accounts
+# To create an Excel-List of all enabled accounts
 in all OUs with the following 5 parameters per record:
+
 1-First Name 
 2-Last Name
 3-Job Position

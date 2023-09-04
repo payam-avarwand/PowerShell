@@ -1,4 +1,4 @@
-# To create an Excel-List of all shared-mailboxes
+#To create an Excel-List of all shared-mailboxes
 This Script creates an excel list of all enabled shared mailboxes,
 with 7 parameters per record:
  

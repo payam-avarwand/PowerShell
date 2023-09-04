@@ -1,10 +1,8 @@
 ﻿# The script creates an Excel list of foreign personal accounts for each individual Branch Office of the
 # Company with 5 parameters per record: First Name + Last Name + Job Position + Email address + Expiration_Date of the account
-
 # The list will be emailed from our Info-Email-address to the Boss.
 
 # ©Payam Avarwand
-
 ############################################################
 #Create: an Excel Object, a WorkBook and a WorkSheet 
 

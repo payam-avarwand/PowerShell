@@ -1,6 +1,6 @@
 ﻿# This Script creates an excel list of all enabled shared mailboxes in all our foreign offices with three parameters per record: Name + WhenCreated + Members
-# ©Payam Avarwand
 
+# ©Payam Avarwand
 ############################################################
 #Create a session to Exchange Server
 

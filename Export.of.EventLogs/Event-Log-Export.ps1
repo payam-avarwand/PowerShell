@@ -4,21 +4,29 @@
 # ©Payam Avarwand
 ############################################################
 
+
+
 $date = get-date -f yyyyMMdd
-$path= "F:\"
-$PATH_host ="$path$env:COMPUTERNAME"
+$Drive= "F:\"
+$PATH ="$Drive$env:COMPUTERNAME"
 
-
-if (!(Test-Path $PATH_host)){
-New-Item -Path $PATH_host -ItemType Directory
+if (!(Test-Path $PATH)){
+New-Item -Path $PATH -ItemType Directory
 }
+
+
 $logs ="LOGS"
-$PATH_log ="$PATH_host\$logs"
-if (!(Test-Path $PATH_log)){
-New-Item -Path $PATH_log -ItemType Directory
+$PATH_Log ="$PATH\$logs"
+if (!(Test-Path $PATH_Log)){
+New-Item -Path $PATH_Log -ItemType Directory
 }
 
-wevtutil epl Security $PATH_log\Security_$date.evtx
+wevtutil epl Security $PATH_Log\Security_$date.evtx
+
+
+
+
+
 
 
 # Created_by Payam.Avarwand

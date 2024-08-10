@@ -1,6 +1,5 @@
+# We use this script to update our backup of GPOs
 # This script deletes the path where the last GPOs were exported and exports the current GPOs there instead.
-
-# ©Payam Avarwand
 ############################################################
 
 
@@ -11,8 +10,8 @@ import-module grouppolicy
 $ExprtFolder = "\\srv\Current-GPOs\"
 Get-ChildItem -Path $ExprtFolder -Include * | Remove-Item -Recurse -Force
 
-
 $GPO = Get-GPO -All
+
 
 # each GPO will be exported to a named folder
 foreach ($GPO1 in $GPO) {

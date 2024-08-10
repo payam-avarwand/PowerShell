@@ -1,9 +1,9 @@
-﻿# This Script checks if there's a folder titled Devices's HOSTNAME in F-Drive, if not, it will create it, then it will do the same for a subfolder titled "LOGS", afterwards the current Security Logs will be exported in LOGS.
+﻿# This Script gets an Export of the current Windows Security Logs
+# It will check if there's a folder titled Devices's HOSTNAME in F-Drive, if not, it will create it, then it will do the same for a subfolder titled "LOGS", afterwards the current Security Logs will be exported in LOGS.
 # We can replace any other Log List name with "Security" to have a current export of that.
-
-# ©Payam Avarwand
-############################################################
-
+## 1-Application 
+## 2-System
+## 3-Setup
 
 
 $date = get-date -f yyyyMMdd
